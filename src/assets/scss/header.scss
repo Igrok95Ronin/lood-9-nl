@@ -1,0 +1,15 @@
+@import "style";
+
+.header {
+}
+.header__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header__img {
+}
+.btnLink {
+    @include btn;
+}

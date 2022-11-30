@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        display: inline-block;
+    }
+    ul,
+    li{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    body{
+        outline: 1px solid red;
+        margin: auto;
+        padding: 0;
+        font: 15px Helvetica,Arial,sans-serif;
+        max-width: 1920px;
+        min-width: 320px;
+        color: #7a7a7a;
+    }
+//mixin
+@mixin btn {
+    background-color: $bgColor;
+    color: #fff;
+    padding: 10px 10px 10px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .3s;
+    span{
+    position: relative;
+    &::before {
+        content: '';
+        background-image: url(../icons/telephone-fill.svg);
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        left: -25px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+    &:hover {
+        color: #fff;
+        background-color: #0e7dc7;
+    }
+}
+//var
+$bgColor: #2ea3f2;
