@@ -1,6 +1,7 @@
 @import "style";
 
 .header {
+    padding: 5px 0;
 }
 .header__box {
     display: flex;
@@ -9,8 +10,11 @@
     gap: 20px;
 }
 .header__img {
+    max-width: 216px;
+    img {
+        width: 100%
+    }
 }
 .btnLink {
     @include btn;
-    background-color: red;
 }
