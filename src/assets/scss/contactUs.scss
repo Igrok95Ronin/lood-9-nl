@@ -1,0 +1,17 @@
+@import "style";
+.contactUs {
+    background-color: $bgColor;
+    padding: 27px 0 20px;
+}
+.contactUs__box {
+    text-align: center;
+}
+.contactUs__title {
+    color: #fff;
+    font-size: 39px;
+    font-weight: 700;
+    transition: .3s;
+    &:hover {
+        color: #fcbf00;
+    }
+}
