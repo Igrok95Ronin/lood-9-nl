@@ -1,0 +1,30 @@
+.info {
+    padding: 54px 0;
+}
+.info__title {
+    text-align: center;
+    text-transform: uppercase !important;
+    font-size: 40px !important;
+    color: #494949 !important;
+    line-height: 1.4em !important;
+    font-weight: 800;
+    margin-bottom: 50px;
+    span{
+        color: #fcbf00;
+    }
+}
+.info__box {
+    border: 1px solid rgb(193, 189, 189);
+    padding: 20px;
+}
+.info__name {
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-weight: 500;
+}
+.info__txt {
+    line-height: 2em;
+    color: #333;
+}
